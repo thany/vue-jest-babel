@@ -1,6 +1,6 @@
 const splitRE = /\r?\n/g
 
-const VueTemplateCompiler = require('vue-template-compiler')
+const VueTemplateCompiler = require('vue-template-babel-compiler')
 const generateSourceMap = require('./generate-source-map')
 const coffeescriptTransformer = require('./transformers/coffee')
 const _processStyle = require('./process-style')
